@@ -11,4 +11,4 @@ def fizzbuzz():
         else:
             print(" ", end="")
             print(i, end="")
-    print("")
+    print("\n", end="")
