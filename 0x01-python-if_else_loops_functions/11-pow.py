@@ -10,5 +10,5 @@ def pow(a, b):
             r = r / a
     else:
         for i in range(0, b):
-            r = r * a;
+            r = r * a
     return r
