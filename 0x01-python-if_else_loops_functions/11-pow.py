@@ -5,6 +5,10 @@ def pow(a, b):
     if b == 1:
         return a
     r = 1
-    for i in range(0, b):
-        r = r * a;
+    if b < 0:
+        for i in range(0, -b):
+            r = r / a
+    else:
+        for i in range(0, b):
+            r = r * a;
     return r
