@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for i in range(97, 123):
-    print("{ch:c}".format(ch = i), end="")
+    print("{ch:c}".format(ch=i), end="")
