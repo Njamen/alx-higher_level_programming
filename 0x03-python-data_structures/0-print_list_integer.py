@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 def print_list_integer(my_list=[]):
-    for x in my_list:
-        print("{n}".format(n=x))
+    if my_list:
+        for x in my_list:
+            print("{n}".format(n=x))
