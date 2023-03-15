@@ -6,4 +6,6 @@ def square_matrix_simple(matrix=[]):
     for line in matrix:
         if line:
             m.append([x*x for x in line])
+        else:
+            m.append([])
     return m
