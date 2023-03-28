@@ -7,6 +7,5 @@ def safe_print_list_integers(my_list=[], x=0):
             n = n + 1
         except ValueError:
             s = 0
-    if n != 0:
-        print("")
+    print("")
     return n
