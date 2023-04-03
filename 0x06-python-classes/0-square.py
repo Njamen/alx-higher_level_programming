@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+""" Documentation of module 
+"""
 class Square:
 """ Empty class
 """
