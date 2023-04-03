@@ -5,4 +5,3 @@
 class Rectangle:
     """Class Rectangle"""
     pass
-
