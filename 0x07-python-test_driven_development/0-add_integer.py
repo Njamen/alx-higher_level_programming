@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""MOdule documentation"""
+
+
 def add_integer(a, b=98):
+    """Function add"""
     if not isinstance(a, float):
         if not isinstance(a, int):
             raise TypeError("a must be an integer")
